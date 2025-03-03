@@ -2,8 +2,8 @@
 #include <HTTPClient.h>          // Include HTTPClient library
 #include <TinyGPS++.h>
 
-const char* ssid = "Skoegle Innovations 2G";    // Your WiFi SSID
-const char* password = "Skoegle@2019"; // Your WiFi password
+const char* ssid = "";    // Your WiFi SSID
+const char* password = ""; // Your WiFi password
 const char* serverName = "https://ram-obliging-pup.ngrok-free.app/vmarg/api/logs"; // Your server URL
 static const int RXPin = 14, TXPin = 12;
 //static const uint32_t GPSBaud = 9600;
